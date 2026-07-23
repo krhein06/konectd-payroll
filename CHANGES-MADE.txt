@@ -1,0 +1,38 @@
+KONECTD PAYMENTS & PAYROLL — PRODUCTION REVISION
+Updated: July 23, 2026
+
+CONTENT AND POSITIONING
+- Confirmed Lifetime Price Lock Guarantee throughout the site.
+- Clarified that pricing can change for scope changes, but not arbitrary annual increases.
+- Added no-cost white-glove onboarding details: grant access, report pulls, history preservation, configuration, validation, testing and managed launch.
+- Added a dedicated white-label partner-program page for banks, insurance firms, accounting firms, bookkeepers, advisors and referral organizations.
+- Added partner-program sections to the homepage and Why Konectd page.
+- Replaced inconsistent quote/booking language with comparison-focused CTAs.
+- Removed the unsupported invoice-upload implication and added secure-sharing language.
+
+CONTACT AND DOMAIN
+- Changed every visible and structured-data phone number to +1 507-261-0379.
+- Added CNAME for konectdpayments.com.
+- Added partners.html to sitemap.xml.
+- Kept production content pages index,follow.
+
+FORM AND TRACKING
+- Updated the CRM form payload to Konectd colors: lime #C8FF62, dark #07110F and neutral #D8DED8 borders.
+- Reduced excess form-wrapper height and collapse it after the embedded form loads.
+- Preserved first-touch UTM and Google click identifiers.
+- Repopulated attribution values into the form-page URL before the CRM widget loads.
+- Added generate_lead, comparison_cta_click, partner_cta_click, click_to_call and email_click tracking hooks.
+- Added duplicate-event protection for CRM success messages and the thank-you page.
+
+DESIGN AND ACCESSIBILITY
+- Fixed the mobile navigation with a fully opaque #07110F background.
+- Added explicit white link colors and lime hover/focus/active states.
+- Disabled mobile header backdrop blur to prevent transparency and fixed-position issues.
+- Added full viewport height, internal scrolling, focus trapping, Escape-to-close and focus return.
+- Rebuilt the comparison chart as a semantic HTML table.
+- Converted the comparison table to stacked cards on small screens.
+
+FILES ADDED
+- partners.html
+- CNAME
+- CHANGES-MADE.txt

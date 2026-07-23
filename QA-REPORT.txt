@@ -1,0 +1,46 @@
+KONECTD PAYMENTS & PAYROLL — PRODUCTION QA REPORT
+Updated: July 23, 2026
+
+STATIC VALIDATION PASSED
+- 15 HTML pages parse with a complete html/head/body structure.
+- Every page has exactly one H1, a title and a meta description.
+- All JSON-LD blocks parse successfully.
+- No duplicate HTML IDs were found.
+- No broken local file links were found.
+- All structured-data and visible phone references use +1 507-261-0379.
+- No obsolete PHP form handler remains in the package.
+- Sitemap includes the new partner-program page.
+- CNAME is set to konectdpayments.com.
+
+CONVERSION AND TRACKING CHANGES
+- CRM form styling uses Konectd lime #C8FF62, dark text #07110F and neutral borders.
+- Form wrapper collapses after the external form loads to avoid excess empty space.
+- First-touch UTM, GCLID, GBRAID, WBRAID, landing-page and referrer values are preserved.
+- The form-page URL is repopulated with stored attribution values before the CRM widget loads.
+- GA4 hooks exist for phone, email, comparison CTA, partner CTA and generate_lead events.
+- Successful CRM postMessage events and the thank-you redirect are guarded against duplicate lead events.
+
+DESIGN AND ACCESSIBILITY CHANGES
+- Mobile navigation now uses a fully opaque #07110F background.
+- Mobile links are explicitly white with lime active, hover and focus states.
+- The menu uses full viewport height, internal scrolling, focus trapping, Escape-to-close and focus return.
+- Backdrop blur is disabled on the mobile header to prevent transparency and fixed-position rendering problems.
+- The provider comparison is now a semantic table and becomes stacked cards on mobile.
+- A dedicated partner-program page and homepage partner section were added.
+
+CONFIRMED BUSINESS MESSAGING
+- Lifetime Price Lock Guarantee is stated as a confirmed offer.
+- Scope-based changes such as employee count, payroll frequency, locations and selected services remain clearly disclosed.
+- Standard white-glove onboarding is described as included at no additional cost.
+- Onboarding explains access, report pulls, history preservation, configuration, validation, testing and launch.
+- White-label and partner programs are presented for banks, insurance firms, accounting firms, bookkeepers and advisors.
+
+LIVE PRODUCTION TESTS STILL REQUIRED
+- DNS, HTTPS and www redirect.
+- reCAPTCHA on konectdpayments.com.
+- Real CRM submission and pipeline assignment.
+- CRM success redirect to /thank-you.html?submitted=1.
+- GA4 Realtime and generate_lead verification.
+- Confirmation that attribution values are saved in the CRM record.
+- Visual test of the externally hosted CRM form on iPhone and Android.
+- Verification that the chatbot does not overlap the form or cookie banner.

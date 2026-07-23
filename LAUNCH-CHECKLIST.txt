@@ -1,0 +1,46 @@
+KONECTD PAYMENTS — FINAL LAUNCH CHECK
+
+DOMAIN AND SECURITY
+[ ] Back up the existing production site
+[ ] Point konectdpayments.com to the new site
+[ ] Confirm www redirects to the preferred domain
+[ ] Enforce HTTPS
+[ ] Add konectdpayments.com to the reCAPTCHA allowlist
+[ ] Confirm /, /index.html and /404.html behave correctly
+
+FORM AND CRM
+[ ] Submit a real lead from /get-started.html
+[ ] Confirm the lead appears in the Konectd CRM
+[ ] Confirm the CRM success action redirects to /thank-you.html?submitted=1
+[ ] Confirm the lead record contains the original page URL, UTM values and Google click ID when supplied
+[ ] Confirm partner inquiries route to the correct owner or pipeline
+[ ] Confirm optional SMS consent is separate from required contact consent
+
+ANALYTICS
+[ ] Confirm G-0MS08JC5LT belongs to Analytics account 385775389
+[ ] Accept analytics and verify GA4 Realtime traffic
+[ ] Complete a form and verify generate_lead in GA4 Realtime or DebugView
+[ ] Verify click_to_call, email_click, comparison_cta_click and partner_cta_click
+[ ] Exclude internal and test submissions from reporting where possible
+
+CONTENT AND CONTACT
+[ ] Confirm +1 507-261-0379 is the correct public phone number
+[ ] Confirm hello@konectdpayments.com is monitored
+[ ] Confirm Lifetime Price Lock Guarantee language matches the client agreement
+[ ] Confirm standard white-glove onboarding is included at no additional cost
+[ ] Confirm partner-program inquiries and branding rules are approved
+
+DESIGN AND DEVICES
+[ ] Test desktop navigation
+[ ] Test mobile navigation on iPhone and Android
+[ ] Confirm the mobile menu has a solid dark background and readable white/lime links
+[ ] Confirm the CRM form fits without nested scrolling or large empty gaps
+[ ] Confirm the form submit button uses the Konectd lime/dark color scheme
+[ ] Test the comparison table on mobile
+[ ] Confirm chatbot does not cover the form or cookie controls
+
+SEARCH
+[ ] Confirm canonical URLs use https://konectdpayments.com
+[ ] Confirm production pages remain index,follow
+[ ] Submit /sitemap.xml in Google Search Console
+[ ] Request indexing for the homepage, payroll page and partner page
